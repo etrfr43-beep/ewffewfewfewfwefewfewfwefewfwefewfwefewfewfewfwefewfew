@@ -1,6 +1,5 @@
-```yaml
+
 proxies:
-# ===== ОСНОВНЫЕ =====
 - {name: "🇩🇪 Германия", type: vless, server: test.grey-lance.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "🇸🇪 Швеция", type: vless, server: test.vast-mesa.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "🇫🇮 Финляндия", type: vless, server: test.wide-frost.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
@@ -14,14 +13,10 @@ proxies:
 - {name: "🇫🇷 Франция", type: vless, server: test.gold-pond.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: par.eu-ffast.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "🇬🇧 Великобритания", type: vless, server: test.firm-tower.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: lon.eu-ffast.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "🇰🇿 Казахстан", type: vless, server: test.soft-blade.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
-
-# ===== ИГРОВЫЕ =====
 - {name: "🎮 Финляндия 1", type: vless, server: test.wide-frost.test-cdn-kkk.com, port: 8443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "🎮 Эстония 2", type: vless, server: test.raw-maple.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "🎮 Швеция 3", type: vless, server: test.vast-mesa.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "🎮 Латвия 4", type: vless, server: test.safe-delta.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: tradingview.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
-
-# ===== LTE =====
 - {name: "📶 LTE 1", type: vless, server: test.pale-moose.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: sun6-21.userapi.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "📶 LTE 2", type: vless, server: test.fast-helm.test-cdn-kkk.com, port: 443, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: sun6-21.userapi.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
 - {name: "📶 LTE 3", type: vless, server: test.fast-blade.test-cdn-kkk.com, port: 10167, uuid: 576bb727-633f-46e7-91c7-abc195ef0860, network: tcp, tls: true, servername: eh.vk.com, reality-opts: {public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw, short-id: "50"}}
